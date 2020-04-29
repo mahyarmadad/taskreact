@@ -1,0 +1,208 @@
+
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif&display=swap');
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Noto Serif', serif;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+.bg::before{
+    background-image: url('./pages/img/bg.jpg');
+    background-size: cover;
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 800px;
+    opacity: .6; 
+    z-index: -1;
+}
+
+#navbrand{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    color: blue;
+    font-weight: 600;
+
+}
+.light{
+    box-shadow: 2px 2px 2px black !important;
+}
+.jumb{
+    background: url('./pages/img/list.png') center no-repeat !important;
+    background-position-y: 10px !important;
+    height: 650px;
+}
+
+#weltxt{
+    background-size: contain !important;
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 22rem;
+    margin-left: 10rem;
+    color: rgba(245, 221, 4, 0.959);
+    text-shadow: 5px 0px 8px black;
+    font-weight: 500;
+}
+
+#weltxt2{
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 31rem;
+    color: rgba(245, 221, 4, 0.959);
+    text-shadow: 5px 0px 8px black;
+    font-weight: 600;
+
+}
+#welbtn{
+    position: absolute;
+    top: 39.8rem;
+    margin-left: -3rem;
+} 
+
+
+.form{
+    background: white;
+    margin: 20px auto;
+    padding: 1rem 1rem;
+    border-radius: 10px;
+    border: 3px rgb(77, 76, 76,0.5) solid;
+}
+
+.todobg{
+    background: linear-gradient(to left ,#DDA065,#A04760);
+    -webkit-background-size: cover !important;
+    -moz-background-size: cover !important;
+    min-height: 100vh;
+}
+
+.w5{
+    width: 50%;
+}
+.tc{
+    align-items: center;
+}
+.mp{
+    padding: 0;
+    margin: 0;
+}
+.h0{
+    height: 50px;
+
+}
+
+.grid{
+    display: grid;
+}
+.iconedit{
+    color: limegreen;
+}
+.icondel{
+    color: red;
+}
+.btn-circle.btn-xl { 
+    width: 40px; 
+    height: 40px; 
+    border-radius: 35px; 
+    text-align: center; 
+    padding:6px;
+} 
+.blockquote{
+    white-space: nowrap !important; 
+    text-overflow: ellipsis !important;
+    overflow: hidden;
+    margin-right: 20px;
+}
+#head{
+    color: whitesmoke;
+    text-shadow: 2px 2px 2px black;
+    font-family: serif;
+}
+.mttc{
+    margin: 100px auto;
+}
+#notask{
+    border-radius: 10px;
+    color: rgba(0, 0, 0, 0.5);
+} 
+@media(max-width:810px){
+    #weltxt{
+        margin-left: 3rem;
+        font-size: 30px;
+        top: 23rem;
+    }
+    #weltxt2{
+        top: 32rem;
+        font-size: 25px;
+    }
+    #welbtn{
+        top: 39.8rem;
+        margin-left:-2rem;
+    }
+}
+
+
+
+@media(max-width:630px){
+    .jumb{
+        background-size: 600px  !important;
+    }
+    #weltxt{
+        font-size: 22px;
+        top: 19rem;
+    }
+    #weltxt2{
+        top: 25.5rem;
+        font-size: 20px;
+    }
+    #welbtn{
+        top: 31rem;
+        margin-left:-2rem;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:450px){
+    .jumb{
+        background-size: 500px  !important;
+    }
+    #weltxt{
+        font-size: 20px;
+        top: 16rem;
+        margin-left: 1rem;
+    }
+    #weltxt2{
+        top: 21.7rem;
+        font-size: 18px;
+    }
+    #welbtn{
+        top: 26rem;
+        margin-left:-2rem;
+        font-size: 15px;
+    }
+}
+@media(max-width:380px){
+    .jumb{
+        background-size: 400px  !important;
+    }
+    #weltxt{
+        font-size: 18px;
+        top: 13rem;
+        margin-left: 2rem;
+    }
+    #weltxt2{
+        top: 18rem;
+        font-size: 18px;
+    }
+    #welbtn{
+        top: 21rem;
+        margin-left:-2rem;
+        font-size: 15px;
+    }
+}
